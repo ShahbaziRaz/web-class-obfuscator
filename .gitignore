@@ -1,0 +1,32 @@
+echo "# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.backup
+*_obfuscated.*
+*.log
+
+# Distribution
+build/
+dist/
+*.egg-info/
+" > .gitignore
